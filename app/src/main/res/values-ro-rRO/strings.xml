@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MetronomSRL</string>
+    <string name="navigation_drawer_open">Deschide navigatia</string>
+    <string name="navigation_drawer_close">Inchide navigatia</string>
+    <string name="header_title">Metronom SRL</string>
+    <string name="nav_header_desc">Antetul navigatiei</string>
+
+
+    <string name="menu_home">Acasa</string>
+    <string name="menu_gallery">Galerie</string>
+    <string name="menu_about_us">Despre noi</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_order_parts">Comanda piese</string>
+</resources>
