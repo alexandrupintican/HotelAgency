@@ -1,20 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/order_parts_text"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/select_model"
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/select_model"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+            <Spinner
+                android:id="@+id/brand_spinner"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/model_spinner"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/year_spinner"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/car_body"
+                android:labelFor="@+id/car_body_edit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/car_body" />
+            <EditText
+                android:id="@+id/car_body_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/identification_number"
+                android:labelFor="@+id/identification_number_edit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/identification_number" />
+            <EditText
+                android:id="@+id/identification_number_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/cilinders"
+                android:labelFor="@+id/cilinders_edit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cilinders" />
+            <EditText
+                android:id="@+id/cilinders_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/max_power"
+                android:labelFor="@+id/max_power_edit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/max_power" />
+            <EditText
+                android:id="@+id/max_power_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/fuel_type"
+                android:labelFor="@+id/fuel_type_edit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/fuel_type" />
+            <EditText
+                android:id="@+id/fuel_type_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/product_description"
+                android:labelFor="@+id/product_description_edit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/product_description" />
+            <EditText
+                android:id="@+id/product_description_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:lines="3"
+                android:maxLines="5"
+                android:inputType="text|textMultiLine"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/name"
+                android:labelFor="@+id/name_edit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/name" />
+            <EditText
+                android:id="@+id/name_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/phone_number"
+                android:labelFor="@+id/phone_number_edit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_number" />
+            <EditText
+                android:id="@+id/phone_number_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="phone"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/e_mail"
+                android:labelFor="@+id/e_mail_edit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/e_mail" />
+            <EditText
+                android:id="@+id/e_mail_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/delivery_address"
+                android:labelFor="@+id/delivery_edit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/delivery_address" />
+            <EditText
+                android:id="@+id/delivery_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="86dp">
+            <Button
+                android:id="@+id/send_data"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Cere oferta"
+                android:onClick="sendData"/>
+        </LinearLayout>
+    </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

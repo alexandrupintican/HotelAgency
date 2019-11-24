@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">MetronomSRL</string>
+    <string name="app_name">MetronomSRLApp</string>
     <string name="navigation_drawer_open">Deschide navigatia</string>
     <string name="navigation_drawer_close">Inchide navigatia</string>
-    <string name="header_title">Metronom SRL</string>
+    <string name="header_title">S.C Metronom SRL</string>
     <string name="nav_header_desc">Antetul navigatiei</string>
 
 
@@ -11,4 +11,31 @@
     <string name="menu_about_us">Despre noi</string>
     <string name="menu_contact">Contact</string>
     <string name="menu_order_parts">Comanda piese</string>
+    <string name="company_header">Piese auto si Service autoturisme</string>
+    <string name="company_description">La Metronom gasiti atat piese originale pentru masina dumneavoastra cat si piese aftermarket, deoarece colaboram cu toti furnizorii externi si importatori interni din Romania. In cazul in care nu avem un produs pe stoc, putem aduce la comanda in cateva zile.</string>
+    <string name="services_and_options">Oferim service autoutilitare, autoturisme si camioane.\nIn termeni de produse, la noi puteti gasi uleiuri, filtre, elemente de directie, ambreiaje, elemente frana, kituri de distributie, anvelope, caroserie, piese camioane si autoutilitate si multe altele.</string>
+    <string name="about_us">S.C. Metronom S.R.L. a fost infiintata din anul 2007 si are ca principala activitate distribuitia de piese auto pentru toate marcile de autoturisme si camioane.
+        Oferim distributie prin masinile proprii in zona Transilvania iar in restul tarii prin curierat rapid. Comenzile locale din Tirgu Mures vor fi livrate in mod gratuit. Comenzi din judetul Mures vor fi livrate sunt livrate in mod gratuit daca valoarea comenzii depaseste 100RON+TVA. Pentu celelalte judete din Transilvania costul transportului va fi stabilit conform comenzilor. Costul transportului va fi suportat de client.</string>
+    <string name="where_to">Unde ne puteti gasi?</string>
+    <string name="shop_info">Adresa: bul. 1848 nr. 19, cartierul Dambu Pietros, Langa Darina
+                            \nTel./Fax: 0265-319.529
+                            \nMobil: 0746-052.949
+                            \nRds: 0365-730.177
+                            \nE-mail: contact@pieseautometronom.ro</string>
+    <string name="service_info">Adresa: Tirgu Mures, Mureseni 43A
+                                \nE-mail: service@pieseautometronom.ro</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAFYrnN5V4ZKw4mOWREuhzTamQnfJCf2yQ</string>
+    <string name="select_model">Selecteaza Model Auto</string>
+    <string name="car_body">Caroserie:</string>
+    <string name="identification_number">Numarul de identificare:</string>
+    <string name="cilinders">Cilindre(cm3):</string>
+    <string name="max_power">Putere max(kW):</string>
+    <string name="fuel_type">Tip Combustibil:</string>
+    <string name="product_description">Descriere produs:</string>
+    <string name="name">Nume:</string>
+    <string name="phone_number">Numar de telefon:</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="delivery_address">Adresa de livrare:</string>
+
+
 </resources>
