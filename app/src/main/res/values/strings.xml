@@ -1,22 +1,24 @@
-<resources>
+ <resources>
     <string name="app_name">MetronomSRLApp</string>
-    <string name="navigation_drawer_open">Deschide navigatia</string>
-    <string name="navigation_drawer_close">Inchide navigatia</string>
-    <string name="header_title">S.C Metronom SRL</string>
-    <string name="nav_header_desc">Antetul navigatiei</string>
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+    <string name="header_title">Welcome to our country booking agency</string>
+    <string name="nav_header_desc">Navigation header</string>
 
 
-    <string name="menu_home">Acasa</string>
-    <string name="menu_gallery">Galerie</string>
-    <string name="menu_about_us">Despre noi</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_about_us">About us</string>
     <string name="menu_contact">Contact</string>
-    <string name="menu_order_parts">Comanda piese</string>
-    <string name="company_header">Piese auto si Service autoturisme</string>
-    <string name="company_description">La Metronom gasiti atat piese originale pentru masina dumneavoastra cat si piese aftermarket, deoarece colaboram cu toti furnizorii externi si importatori interni din Romania. In cazul in care nu avem un produs pe stoc, putem aduce la comanda in cateva zile.</string>
-    <string name="services_and_options">Oferim service autoutilitare, autoturisme si camioane.\nIn termeni de produse, la noi puteti gasi uleiuri, filtre, elemente de directie, ambreiaje, elemente frana, kituri de distributie, anvelope, caroserie, piese camioane si autoutilitate si multe altele.</string>
+    <string name="menu_book_hotel">Book country</string>
+    <string name="company_header">Hotel agency</string>
+    <string name="description_title">#TODO Description:</string>
+    <string name="company_description">#TODO Hotel agency is a company that has only one focus, you, the customer. We provide the best prices and make sure they are up to date in order for you to enjoy your time at the location as much as possible.</string>
+    <string name="services_title">#TODO Services:</string>
+     <string name="services_and_options">#TODO We offer options in the most exotic of locations such as Spain, United States, Austria, United Kingdom and many more.</string>
     <string name="about_us">S.C. Metronom S.R.L. a fost infiintata din anul 2007 si are ca principala activitate distribuitia de piese auto pentru toate marcile de autoturisme si camioane.
         Oferim distributie prin masinile proprii in zona Transilvania iar in restul tarii prin curierat rapid. Comenzile locale din Tirgu Mures vor fi livrate in mod gratuit. Comenzi din judetul Mures vor fi livrate sunt livrate in mod gratuit daca valoarea comenzii depaseste 100RON+TVA. Pentu celelalte judete din Transilvania costul transportului va fi stabilit conform comenzilor. Costul transportului va fi suportat de client.</string>
-    <string name="where_to">Unde ne puteti gasi?</string>
+    <string name="where_to">Where can you find us?</string>
     <string name="shop_info">Adresa: bul. 1848 nr. 19, cartierul Dambu Pietros, Langa Darina
                             \nTel./Fax: 0265-319.529
                             \nMobil: 0746-052.949

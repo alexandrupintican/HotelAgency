@@ -12,7 +12,7 @@
         android:layout_height="160dp"
         android:layout_marginTop="8dp"
         android:layout_marginStart="8dp"
-        android:src="@drawable/photo1" />
+        android:src="@drawable/pic1h1" />
 
     <ImageView
         android:id="@+id/image_item_right"
@@ -22,6 +22,6 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="10dp"
         android:layout_height="160dp"
-        android:src="@drawable/photo1" />
+        android:src="@drawable/pic1h2" />
 
 </LinearLayout>

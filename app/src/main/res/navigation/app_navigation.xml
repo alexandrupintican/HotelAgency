@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.metronomsrl.ui.home.HomeFragment"
+        android:name="com.example.hotelagency.ui.home.HomeFragment"
         android:label="@string/header_title"
         tools:layout="@layout/home_fragment" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.metronomsrl.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/gallery_fragment" />
-
-    <fragment
         android:id="@+id/nav_about_us"
-        android:name="com.example.metronomsrl.ui.about_us.AboutUsFragment"
+        android:name="com.example.hotelagency.ui.about_us.AboutUsFragment"
         android:label="@string/menu_about_us"
         tools:layout="@layout/about_us_fragment" />
 
     <fragment
-        android:id="@+id/nav_order_parts"
-        android:name="com.example.metronomsrl.ui.order_parts.OrderPartsFragment"
-        android:label="@string/menu_order_parts"
-        tools:layout="@layout/order_parts_fragment" />
+        android:id="@+id/nav_gallery"
+        android:name="com.example.hotelagency.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/gallery_fragment" />
+
+    <fragment
+        android:id="@+id/nav_book_hotel"
+        android:name="com.example.hotelagency.ui.book_hotel.BookHotelFragment"
+        android:label="@string/menu_book_hotel"
+        tools:layout="@layout/book_hotel_fragment" />
 </navigation>
